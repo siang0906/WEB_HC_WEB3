@@ -9,9 +9,9 @@
 nav{
     display: grid;
     grid-template-columns: 20% 70% 10%;
-    background: #f6f6f6;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    padding: 20px 30px;
+    background: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    padding: 0 10px;
     align-items: center;
 }
 
@@ -22,15 +22,15 @@ nav{
 #link a{
     padding: 0 50px;
     text-decoration: none;
-    font-weight: 900;
-    color: #999999;
-    transition: 0.5s;
+    font-weight: 1000;
+    color: #000000;
+    transition: 0.3s;
     border: 0;
 }
 
 #link a:hover{
-    color: #226641;
-    border: 5px #226641;
+    color: #f38927;
+    border: 5px #ffffff;
 }
 
 /* 商品類型 */
@@ -53,18 +53,23 @@ nav{
     object-fit:cover;
 }
 
-#products .test{
-    padding: 80px 30px 0;
+#products .text{
+    padding: 0px 0px 0px;
 }
 
-#products .test h1{
+#products .text h1 {
     padding: 30px 0;
 }
 
-#products .test p{
-    width: 300px;
+#products .text p{
+    width: 500px;
     line-height: 2;
-    padding: 10px 0 20px;
+    padding: 20px 0 50px;
+    
+}
+
+#products > div div:nth-child(2){
+   padding-left: 30px;
 }
 
 #products > div:nth-child(2){
@@ -96,4 +101,9 @@ nav{
 .button:hover{
     background: #f0ad31;
     color: #ffffff;
+}
+
+#S img{
+    width: 50px;
+    height: 50px;
 }
