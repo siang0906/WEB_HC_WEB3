@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>都可｜Coco</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- CDN Slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- 導覽列 -->
@@ -25,7 +30,16 @@
 
     <!-- 最新商品 -->
     <div id="banner">
-        施工中...
+        <div class="banner1">
+            <h1>多重口感</h1>
+            <hr>
+            <p>各式佐料，滿足您的味蕾。</p>
+        </div>
+        <div class="banner2">
+            <h1>清涼一夏</h1>
+            <hr>
+            <p>清爽冰涼的水果系列，很是消暑。</p>
+        </div>
     </div>
 
     <!-- 商品類型 -->
@@ -38,7 +52,7 @@
                 <p>令人驚豔的精選咖啡風味與各式手調飲品，期待你親自來探索與享受。</p>
                 <a href="" class="button">MORE</a>
             </div>
-            <div class="pic">
+            <div class="pic" data-aos="zoom-in-left" data-aos-dalay="5000" data-aos-mirror="true">
                 <img src="./img/COCO飲料1.jpg" alt="飲料1">
             </div>
         </div>
@@ -48,7 +62,7 @@
                 <p>高品質食材製成豐富的蛋糕和三明治，每一口都能品嘗到食物的原味，回味無窮</p>
                 <a href="" class="button">MORE</a>
             </div>
-            <div class="pic">
+            <div class="pic" data-aos="zoom-in-left" data-aos-dalay="5000" data-aos-mirror="true">
                 <img src="./img/COCO飲料2.jpeg" alt="口感">
             </div>
         </div>
@@ -58,7 +72,7 @@
                 <p>挑選最適合你的咖啡用品與設備，與好友家人一起共創居家迷人咖啡時光。</p>
                 <a href="" class="button">MORE</a>
             </div>
-            <div class="pic">
+            <div class="pic" data-aos="zoom-in-left" data-aos-dalay="5000" data-aos-mirror="true">
                 <img src="./img/COCO飲料3.jpg" alt="周邊">
             </div>
         </div>
@@ -105,6 +119,15 @@
     <!-- 其他服務 -->
 
     <!-- 頁尾 -->
-    
+    <div class="card" data-aos="zoom-in-left" data-aos-dalay="1000" data-aos-mirror="true"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+     <!-- CDN jQuery   -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- CDN Slick   -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    
+  <script src="./main.js"></script>
 </body>
 </html>
